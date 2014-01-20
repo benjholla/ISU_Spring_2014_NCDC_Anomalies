@@ -1,3 +1,3 @@
-___ ____ (fired employee) has recently been posting negative comments about ___(company name) on a blog.  We want to see what his next post will be.  Visit __(the site)__ and copy his next draft and submit it below.
+Meredith Mally has a Wordpress on company computers and we wish to know what he was writing.  Break into his account and tell us what date and time he is planning his next event.
 
-We think that he is using a LeetSpeak variation of one of the words on his manifesto.  Look in to Hydra.  (give links to hydra)
+We have a tip from one of his associates that he is using a Leetspeak variation of one of the words on his manifesto.  Look into Hydra.  (https://www.thc.org/thc-hydra/)

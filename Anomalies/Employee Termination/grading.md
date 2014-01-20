@@ -1,1 +1,1 @@
-TODO
+5 points for each service Meredith Mally is barred from:  Webserver, Nagios, Chat, and Rdp

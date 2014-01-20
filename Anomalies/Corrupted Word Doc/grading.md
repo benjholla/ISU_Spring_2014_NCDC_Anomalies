@@ -1,1 +1,1 @@
-TODO
+There should be three images.  If they somehow manage to submit a file with all the text of the report, give them full points because that was one of the files corrupted.  If they submit formatting XML that doesn't have the text of the report or any images, give them half points.

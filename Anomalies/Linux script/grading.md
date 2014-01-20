@@ -1,1 +1,1 @@
-TODO
+10 points if the script creates directories with correct names, 10 points for creating files with correct names, 10 points for writing files with TODO.

@@ -1,3 +1,5 @@
+5 points per string.
+
 Love all, trust few, and do wrong to none. -William Shakespeare
 
 I'm trying to free your mind, Neo. But I can only show you the door. You're the one that has to walk through it. -Morpheus (from the Matrix)

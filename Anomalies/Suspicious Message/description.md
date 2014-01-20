@@ -1,7 +1,3 @@
 We found this mysterious text in the file of one of employees and wish to discover whether it is anything we should be concerned with.  
 
-We think that the letters in the encryption alternate in two different substitution ciphers.
-
-__Insert encrypted humorous message__
-
-http://substitution.webmasters.sk/simple-substitution-cipher.php
+DZWN, IWLH JZUCE QS G BSRXSMI NLYWI IZ HGRGN-JRGB BSISR'H ESHA.  L WGKS IWS ASTH IZ ZXXLMS, ZHISNHLQCT IZ JZRA ZN PT MURRSNICT BRZDSMI.  WGRZCE, SCLZGQSIW, GNE PGRLGN JLCC QS GRZUNE, QUI L ANZJ GCC ZX IWSP GRS JLCCLNY IZ YZ GCZNY JLIW JWGISKSR JS EZ.  L JLCC QRLNY IWS HGRGN-JRGB, HWZJ UB LX TZU JGNI IZ WGKS G BGRI!

@@ -1,1 +1,1 @@
-Please complete the initial survey at ____.  One response per team please.
+Please complete the initial survey at https://docs.google.com/forms/d/1UOvP4bDtMsMZMSnJgBWmNlRJn1AUSz9hQfscw7_tWm8/viewform.  One response per team please.
