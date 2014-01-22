@@ -1,1 +1,1 @@
-TODO
+Run the program and give them full points if it decrypts all of the text, partial if it decrypts part of the text.

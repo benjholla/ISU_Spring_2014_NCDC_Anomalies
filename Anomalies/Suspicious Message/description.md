@@ -1,3 +1,3 @@
-We found this mysterious text in the file of one of employees and wish to discover whether it is anything we should be concerned with.  
+We found this mysterious text in the file of one of employees and wish to discover whether it is anything we should be concerned with.  We know that it uses two substitution ciphers.  Even-numbered letters are in one and odd-numbered letters are in another; spaces and punctuation are not counted.
 
-DZWN, IWLH JZUCE QS G BSRXSMI NLYWI IZ HGRGN-JRGB BSISR'H ESHA.  L WGKS IWS ASTH IZ ZXXLMS, ZHISNHLQCT IZ JZRA ZN PT MURRSNICT BRZDSMI.  WGRZCE, SCLZGQSIW, GNE PGRLGN JLCC QS GRZUNE, QUI L ANZJ GCC ZX IWSP GRS JLCCLNY IZ YZ GCZNY JLIW JWGISKSR JS EZ.  L JLCC QRLNY IWS HGRGN-JRGB, HWZJ UB LX TZU JGNI IZ WGKS G BGRI!
+pewi, dmsk jehli pf h trbtfad iscwd de ghbhm-fbht vfdfj'g qfkq.  u whkr dmf xfsg dx entsaf, egdfiguhlo dx fxjq em zo ahjbrmdrs tjxwfad.  mcjxli, rruzcpfdw, hmq ahbuci jurl hr cjxgmq, hgd u qixf clr en dwra hbr jurlsil dx cx hremc judm jmcdfnfj jr ie.  s fslr pbumc dmf kcjci-jjcv, gmxf hv st oeh fcid dx mcnf h thbd!

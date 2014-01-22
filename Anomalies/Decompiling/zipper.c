@@ -1,5 +1,3 @@
-The answer should look something like the below and should compile.
-
 #include <stdio.h>
 
 int main(){
@@ -38,4 +36,3 @@ int main(){
 	}
 	return 0;	
 }
-
