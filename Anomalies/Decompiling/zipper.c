@@ -17,12 +17,12 @@ int main(){
 	int strlength = j;
 	//Convert to lowercase
 	for(i = 0; i < strlength; i++){
-		if(str[i] < 'Z' && str[i] >= 'A'){
+		if(str[i] <= 'Z' && str[i] >= 'A'){
 			str[i] = str[i] - 'A' + 'a';
 		}
 	}
 	for(i = 0, j= 0; i <  strlength && j < strlength; i++, j++){
-		if(str[i] < 'z' && str[i] >= 'a'){
+		if(str[i] <= 'z' && str[i] >= 'a'){
 			if(j %2 == 0){ //If even
 				str[i] = sub1[str[i] -'a'];
 			}
