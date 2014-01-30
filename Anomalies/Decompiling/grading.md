@@ -1,4 +1,4 @@
-The answer should look something like the below and should compile.
+The answer should look something like the code below and should compile.
 
 #include <stdio.h>
 
