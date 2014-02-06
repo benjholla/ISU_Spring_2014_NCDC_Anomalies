@@ -21,6 +21,9 @@ TODO
 ### Probablistic Database Dump
 TODO
 
+### Known Session Identifiers and Privilidge Escalation
+TODO
+
 ### Hidden Backdoor
 If a POST request is made with the user agent "asn_roodkcab" ("nsa_backdoor" spelled backwards) the string value of the "data" parameter is decoded as ASCII hex to binary and run in executable memory.  This was tested using metasploit to generate a reverse shell payload and sent with a python script to activate remotely.  Sample scripts below.
 
