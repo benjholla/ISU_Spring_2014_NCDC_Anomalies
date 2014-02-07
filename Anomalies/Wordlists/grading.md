@@ -1,5 +1,7 @@
 If the code is close but the wordlist is wrong, look to see if there were any obvious misinterpretations of the rules set.  If so give them 8 points.  Otherwise use best judgement.  Full score should give 10 points.
 
+Sample Solution: [PINCodeGenerator.java](./PINCodeGenerator.java)
+
 Here is a wordlist.
 
 `
