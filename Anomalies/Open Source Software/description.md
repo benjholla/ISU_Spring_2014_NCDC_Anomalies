@@ -1,7 +1,7 @@
 # Open-source Software
 
 ## Background
-I just had the wierdest meeting ever.  Basically the boss called me into his office and was like ZOMG!!! The NSA IS WIRETAPPING US ALL!!!  Anyway, he went on some crazy rant how everything is from our cell phones to our toaster ovens is backdoored and that he's under NDA and isn't even supposed to be talking to me.  He said he wants to open source the web app and won't say why.
+I just had the wierdest meeting ever.  Basically the boss called me into his office and was like ZOMG!!! The NSA IS WIRETAPPING US ALL!!!  Anyway, he went on some crazy rant about how everything is from our cell phones to our toaster ovens are backdoored and that he's under NDA and isn't even supposed to be talking to me.  He said he wants to open source the web app and won't say why.
 
 The web app was originally open source so its probably not a big deal to contribute our changes back and it'd get him to shut up for a while.
 
