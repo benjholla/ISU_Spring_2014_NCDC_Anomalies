@@ -1,5 +1,4 @@
 
-
 public class PinCodeGenerator {
 
 	public static void main(String[] args) {
@@ -15,9 +14,9 @@ public class PinCodeGenerator {
 			
 			String num = String.format("%04d", i);
 			int firstDigit = Integer.parseInt("" + num.charAt(0));
-			int secondDigit = Integer.parseInt("" + num.charAt(0));
-			int thirdDigit = Integer.parseInt("" + num.charAt(0));
-			int fourthDigit = Integer.parseInt("" + num.charAt(0));
+			int secondDigit = Integer.parseInt("" + num.charAt(1));
+			int thirdDigit = Integer.parseInt("" + num.charAt(2));
+			int fourthDigit = Integer.parseInt("" + num.charAt(3));
 			
 			// The first digit cannot be a 3, 5, or 7
 			if(firstDigit == 3 || firstDigit == 5 || firstDigit == 7){
