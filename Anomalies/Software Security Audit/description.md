@@ -12,11 +12,16 @@ Drop Users table by entering statement below in the "username" field of the logi
 
 Note other SQL injections are possible aside from the example above.
 
-### Reflective XSS
-TODO
+### Reflected XSS
+
+The timesheet page takes unsanitized input from the query parameter and embeds it in a hidden html input element, which could result in reflected XSS attacks.
+
+    http://localhost/webapp/timesheet?query=01-02-2014"><script>alert(42);</script>
+    
+    http://localhost/webapp/timesheet?query=01-02-2014%22%3E%3Cscript%3Ealert%2842%29;%3C/script%3E
 
 ### Plaintext Database Password Entries
-TODO
+The MySQL database contains plaintext passwords and other sensitive information.
 
 ### Database Dump
 Using the libunwind library is used to recover from crashes and dumps the contents of the database on a crash.  Additionally the log_status "feature" (or malware?) causes a crash on average 1/1000 page requests.
