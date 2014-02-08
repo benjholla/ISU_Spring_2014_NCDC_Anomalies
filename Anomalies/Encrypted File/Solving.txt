@@ -1,0 +1,1 @@
+See http://stackoverflow.com/questions/7301725/xor-file-decryption for hints and directions.  While you cannot assume that I excluded tabs and other special characters, you can assume that I wrote in English, so non-English characters can be excluded.
