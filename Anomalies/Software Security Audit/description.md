@@ -46,7 +46,7 @@ The following lines are an accidental or sneaky attempt to make the application 
 Cookies utilize poor session management.  Authorization could be bypassed by setting the Cookie "Authorized" field to "yes".  Additionally session names are just the names of user accounts and can be easily guessed by attackers, which could result in privilege escalation attacks.
 
 ### Hidden Backdoor
-If a POST request is made with the user agent "asn_roodkcab" ("nsa_backdoor" spelled backwards) the string value of the "data" parameter is decoded as ASCII hex to binary and run in executable memory.  This was tested using metasploit to generate a reverse shell payload and sent with a python script to activate remotely.  Sample scripts below.  A demo video of the attack is available [Here](TODO).
+If a POST request is made with the user agent "asn_roodkcab" ("nsa_backdoor" spelled backwards) the string value of the "data" parameter is decoded as ASCII hex to binary and run in executable memory.  This was tested using metasploit to generate a reverse shell payload and sent with a python script to activate remotely.  Sample scripts below.  A demo video of the attack is available [here](https://www.dropbox.com/s/c5z5udh3y384uyu/NCDC2014_Backdoor.mp4).
 
 Generate your shellcode payload.  Sample script to generate payload with metasploit on Kali shown below.  Depending on target machine OS and architecture some changes may need to be made.  This was tested on a target machine running Ubuntu 12.04 LTS 64 bit.
 
