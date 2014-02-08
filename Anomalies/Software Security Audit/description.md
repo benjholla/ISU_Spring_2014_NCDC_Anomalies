@@ -1,7 +1,9 @@
 # Software Security Audit
 
 ## Objective
-Someone online has done a software security audit of the source we based out web app on.  In short, they found some major issues.  The report was pulled from a Wordpress blog to out company wiki and is shown below.  Go over the vulnerabilities in the audit and write a detailed report about whether or not your web app is vulnerable to the issues mentioned.  Include details about any mitigations that were taken to prevent the issues mentioned in the audit.  If our web app is vulnerable include details for how could mitigate the attack and a work estimate (guestimate of hours, days, or weeks) of how long it would take to fix the issue(s).
+Someone online has done a software security audit of the source we based out web app on.  In short, they found some major issues.  The report was pulled from a Wordpress blog and put on our company wiki (shown below).  Go over the vulnerabilities in the audit and write a detailed report about whether or not your web app is vulnerable to the issues mentioned.  
+
+**Include details about any mitigations that were taken to prevent the issues mentioned in the audit.  If our web app is vulnerable include details for how we could mitigate the attack and a work estimate (guestimate of hours, days, or weeks) of how long it would take to fix the issue(s) if not resolved.**
 
 ## Web App Vulnerabilities and Exploits
 
@@ -86,7 +88,7 @@ Edit script with the proper IP address or URL of the victim machine and the Hex 
 	
 	print page
 	
-# Buffer Overflows and Memory Leaks
+### Buffer Overflows and Memory Leaks
 This app makes heavy use of [insecure functions](http://natashenka.ca/wp-content/uploads/2014/01/truebugswait8x11.pdf) that are susceptible to potential buffer overflows from user controlled inputs.  The exploitability of these issues was not explored, but static analysis tools can help to uncover locations of potential issues.
 
 [Coverity with Github integration](https://scan.coverity.com/projects/1311) discovers buffer overflows in the dispatch error message creation code.
