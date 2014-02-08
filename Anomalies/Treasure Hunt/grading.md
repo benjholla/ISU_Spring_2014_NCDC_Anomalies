@@ -1,1 +1,1 @@
-TODO
+Secret code is "ncdc" (case insensitive).  Teams were also instructed to submit a favorite color but thats not important, that's just the robot being crazy.  Give full points if they submit what is expected.  Otherwise give partial credit where applicable.  This is really a spirit challenge, so don't need to grade too terribly harsh.
