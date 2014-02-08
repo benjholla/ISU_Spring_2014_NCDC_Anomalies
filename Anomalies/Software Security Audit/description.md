@@ -85,3 +85,18 @@ Edit script with the proper IP address or URL of the victim machine and the Hex 
 	page = response.read()
 	
 	print page
+	
+# Buffer Overflows and Memory Leaks
+This app makes heavy use of [insecure functions](http://natashenka.ca/wp-content/uploads/2014/01/truebugswait8x11.pdf) that are susceptible to potential buffer overflows from user controlled inputs.  The exploitability of these issues was not explored, but static analysis tools can help to uncover locations of potential issues.
+
+[Coverity with Github integration](https://scan.coverity.com/projects/1311) discovers buffer overflows in the dispatch error message creation code.
+
+    char err[1024] = "No match for ";
+    strcat(err, method_str);
+    strcat(err, " \"");
+    strcat(err, path_info);
+    strcat(err, "\"");
+    strcat(err, agt);
+    error_handler(err);
+    
+Memory leaks are present all over the application due not properly freeing memory allocations.  These issues could lead to DOS attacks against the application.
