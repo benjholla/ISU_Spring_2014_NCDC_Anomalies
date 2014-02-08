@@ -30,7 +30,7 @@ Using the libunwind library is used to recover from crashes and dumps the conten
         log_stats(stderr, DISPATCH, LOG_LEVEL_DEFAULT);
     }
 
-### Privilige Escalation
+### Privilege Escalation
 The following lines are an accidental or sneaky attempt to make the application run as root.  The if condition actually sets the uid instead of checking it.  A valid check would utilize "==" not "=".
         
 	int uid = (int) geteuid();
