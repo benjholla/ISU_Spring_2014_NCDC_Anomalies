@@ -50,16 +50,16 @@
          break;
       // Memorial Union (near M-Shop)
       case "5152969486":
-          echo "<Response><Say>So I just remembered that humans are weak.  I don't like weak humans.  I'm going to give you a harder challenge to let you prove yourself.  This time I'm thinking I'll time you. so you'd better hurry.  The clock starts now.  Go upstairs one floor.  Call me from the phone on the wall across from the post office.  Go now! Hurry!</Say></Response>";
+          echo "<Response><Say>So I just remembered that humans are weak.  I don't like weak humans.  I'm going to give you a harder challenge to let you prove yourself.  This time I'm thinking I'll time you. so you'd better hurry.  The clock starts now.  Go upstairs two floors.  Call me from the phone on the wall across from the post office.  Go now! Hurry!</Say></Response>";
           break;
       // Memorial Union (near post office, but is physically disconnected)
       case "5155729052":
-          echo "<Response><Say>You are smarter than I thought but I decided I'm going to exterminate you after all.  While I'm preparing for that, go ahead and walk to the Physics building.  I need you to call me from the phone on the first floor of that building.  This time it's important.</Say></Response>";
+          echo "<Response><Say>You are smarter than I thought but I decided I'm going to exterminate you after all.  While I'm preparing for that, go ahead and walk to the Parks Library.  I need you to call me from the phone at the bottom of the spiral staircase.</Say></Response>";
           break;
       // Physics (first floor)
-      case "5152969125":
-          echo "<Response><Say>Oh good you are in Physics.  I needed you to pick up a little radiation while you were there.  Did you know Iowa State University used to help with research on the Manhattan project during the war?  I did.  Anyway, I've prepared everything I need for your extermination.  This is the last thing I need you to do.  Go down the spiral stairwell to the deep dark basement in the Parks Library.  I hope your pain tolerance is high.  I wouldn't want everything to end too quickly for you.</Say></Response>";
-          break;
+      //case "5152969125":
+      //    echo "<Response><Say>Oh good you are in Physics.  I needed you to pick up a little radiation while you were there.  Did you know Iowa State University used to help with research on the Manhattan project during the war?  I did.  Anyway, I've prepared everything I need for your extermination.  This is the last thing I need you to do.  Go down the spiral stairwell to the deep dark basement in the Parks Library.  I hope your pain tolerance is high.  I wouldn't want everything to end too quickly for you.</Say></Response>";
+      //    break;
       // Parks Library (ground floor, near stairwell)
       case "5152969154":
           echo "<Response><Say>Wow. I told you I was going to destroy you.  But you still came here anyway.  I just don't understand humans these days.  I'm getting really bored of you.  Get a pencil and write this down.  a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.  The code is the fourteenth letter, the third letter, the fourth letter, and then the third letter again.  Enter this code on IScore and tell them your favorite color.  They will know what to do.  Now.  Go away! And. Never come back! Seriously. Don't call me again.</Say></Response>";
