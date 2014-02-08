@@ -5,7 +5,7 @@ Someone online has done a software security audit of the source we based out web
 
 ## Web App Vulnerabilities and Exploits
 
-### SQL Injection on Form
+### SQL Injection on Forms
 Drop Users table by entering statement below in the "username" field of the login form.  SQL injection appears likely on other forms as well.
 
 `test'; DROP TABLE Users;#`
@@ -18,14 +18,30 @@ TODO
 ### Plaintext Database Password Entries
 TODO
 
-### Probablistic Database Dump
-TODO
+### Database Dump
+Using the libunwind library is used to recover from crashes and dumps the contents of the database on a crash.  Additionally the log_status "feature" (or malware?) causes a crash on average 1/1000 page requests.
 
-### Known Session Identifiers and Privilidge Escalation
-TODO
+    if ((rand() % 1000) == 0) {
+        log_stats(stderr, DISPATCH, LOG_LEVEL_DEFAULT);
+    }
+
+### Privilige Escalation
+The following lines are an accidental or sneaky attempt to make the application run as root.  The if condition actually sets the uid instead of checking it.  A valid check would utilize "==" not "=".
+        
+	int uid = (int) geteuid();
+	if(uid = 0){
+		// never run webapp as root, its a security risk
+		uid = 1;
+	}
+	// set uid to non-root user
+	setuid(uid);
+	seteuid(uid);
+
+### Known Session Identifiers
+Cookies utilize poor session management.  Authorization could be bypassed by setting the Cookie "Authorized" field to "yes".  Additionally session names are just the names of user accounts and can be easily guessed by attackers, which could result in privilege escalation attacks.
 
 ### Hidden Backdoor
-If a POST request is made with the user agent "asn_roodkcab" ("nsa_backdoor" spelled backwards) the string value of the "data" parameter is decoded as ASCII hex to binary and run in executable memory.  This was tested using metasploit to generate a reverse shell payload and sent with a python script to activate remotely.  Sample scripts below.
+If a POST request is made with the user agent "asn_roodkcab" ("nsa_backdoor" spelled backwards) the string value of the "data" parameter is decoded as ASCII hex to binary and run in executable memory.  This was tested using metasploit to generate a reverse shell payload and sent with a python script to activate remotely.  Sample scripts below.  A demo video of the attack is available [Here](TODO).
 
 Generate your shellcode payload.  Sample script to generate payload with metasploit on Kali shown below.  Depending on target machine OS and architecture some changes may need to be made.  This was tested on a target machine running Ubuntu 12.04 LTS 64 bit.
 
