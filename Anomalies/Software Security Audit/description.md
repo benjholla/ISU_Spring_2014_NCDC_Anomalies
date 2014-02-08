@@ -99,4 +99,4 @@ This app makes heavy use of [insecure functions](http://natashenka.ca/wp-content
     strcat(err, agt);
     error_handler(err);
     
-Memory leaks are present all over the application due not properly freeing memory allocations.  These issues could lead to DOS attacks against the application.
+Memory leaks are present all over the application and could be leverage to perform DOS attacks against the application.
