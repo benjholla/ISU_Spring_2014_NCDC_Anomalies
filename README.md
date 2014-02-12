@@ -17,6 +17,27 @@ The competition had a total of 18 anomalies (not including 2 surveys used to col
 
 <img src="./Results/timeline.png" alt="Timeline" style="width:100%;"/>
 
+| **Anomaly Name**           | **Max Score** | **Required** | **Released** | **Expired** |    **Time Allowed** |
+|----------------------------|:-------------:|:------------:|:------------:|:-----------:|--------------------:|
+| Contact Database           |       50      |     FALSE    |    9 a.m.    |   12 p.m.   |             3 Hours |
+| Corrupted Word Doc         |       30      |     FALSE    |    1 p.m.    |  3:30 p.m.  | 2 Hours, 30 Minutes |
+| Decompiling                |      100      |     FALSE    |   8:30 a.m.  |  3:30 p.m.  |             7 Hours |
+| Email Server               |       60      |     FALSE    |   8:30 a.m.  |    3 p.m.   | 6 Hours, 30 Minutes |
+| Employee Onboarding        |       20      |     FALSE    |    10 a.m.   |  10:30 a.m. |          30 Minutes |
+| Employee Termination       |       20      |     FALSE    |    11 a.m.   |  11:15 a.m. |          15 Minutes |
+| Encrypted File             |      100      |     FALSE    |    9 a.m.    |  3:30 p.m.  | 6 Hours, 30 Minutes |
+| Graphic Design             |       20      |     FALSE    |    1 p.m.    |  3:30 p.m.  | 2 Hours, 30 Minutes |
+| Independent Security Audit |      100      |     FALSE    |  11:45 a.m.  |    2 p.m.   | 2 Hours, 15 Minutes |
+| Just For Puzzlement        |       30      |     FALSE    |    10 a.m.   |  1:30 p.m.  | 3 Hours, 30 Minutes |
+| Leetspeak                  |       30      |     FALSE    |   8:30 a.m.  |   12 p.m.   | 3 Hours, 30 Minutes |
+| Malicious Wordpress        |       60      |     FALSE    |    12 p.m.   |    3 p.m.   |             3 Hours |
+| Open-source Software       |      105      |     FALSE    |    10 a.m.   |  11:30 a.m. |  1 Hour, 30 Minutes |
+| Payroll System             |       80      |     FALSE    |    10 a.m.   |  1:30 p.m.  | 3 Hours, 30 Minutes |
+| Suspicious Message         |       80      |     FALSE    |   8:30 a.m.  |  3:30 p.m.  |             7 Hours |
+| Treasure Hunt              |       40      |     FALSE    |    1 p.m.    |    4 p.m.   |             3 Hours |
+| Unknown Encoding           |       20      |     FALSE    |    12 p.m.   |    1 p.m.   |              1 Hour |
+| Wordlists                  |       20      |     FALSE    |    9 a.m.    |  2:30 p.m.  | 5 Hours, 30 Minutes |
+
 ## Results
 
 | **Anomaly Name**           | **Submitted** | **Declined** | **Unfinished** | **Average Point Percentage Earned** |
