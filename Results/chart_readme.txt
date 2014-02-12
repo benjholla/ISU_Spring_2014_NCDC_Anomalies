@@ -1,1 +1,0 @@
-Chart_1 shows anomaly difficult and enjoyment.
