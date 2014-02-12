@@ -5,7 +5,19 @@ This repository contains a collection of the Iowa State University Spring 2014 N
 
 These anomalies were created for the Iowa State University Spring 2014 National Cyber Defense Competition held on Feburary 8th, 2014. These anomalies are being released under the MIT License in the hopes that they can be reused or in some way aid in learning or promotion of computer security topics. Anomalies contained in this repository were created by Susan Maslo and Ben Holland.
 
-Disclaimer: The brief post-analysis of the anomalies given below is the work of Ben Holland and does not reflect the views or opinions of Iowa State University. A best effort was made to collect this data during and after the competition from participant registration, participant check in sheets, the competition scoreboard, and participant feedback. As a result some of the data and analysis may be subject to errors. Note also that some of the challenges contain security relevant materials that could be considered malicious by some. Please use common sense when browsing this and other past anomaly repositories.
+**Disclaimer:** The brief post-analysis of the anomalies given below is the work of Ben Holland and does not reflect the views or opinions of Iowa State University. A best effort was made to collect this data during and after the competition from participant registration, participant check in sheets, the competition scoreboard, and participant feedback. As a result some of the data and analysis may be subject to errors. Note also that some of the challenges contain security relevant materials that could be considered malicious by some. Please use common sense when browsing this and other past anomaly repositories.
+
+## Participation
+The ISU Spring 2014 CDC had 8 teams compete in the Cyber Defense Competition.  During the competition one team disbanded and left the competition early leaving 7 teams that finished the competition.
+
+<img src="./Results/team_attendance.png" alt="Team Attendance" style="width:100%;"/>
+
+## Anomalies
+The competition had a total of 18 anomalies (not including 2 surveys used to collect information about the teams and the statistics used in this write up).  For the majority of the competition multiple overlapping anomalies were active for teams to attempt.  Partial credit was given when grading submissions (when applicable).  This year we held the Fire Drill event at 9:30 AM and again at 2:30 PM.  The Fire Drill event is a tradition for ISU CDC's that aims to catch participants off guard and gives Red Team a short time to perform physical attacks on the Blue team networks.  The first Fire Drill was disguised as a group photo that required participants to gather outside the competition area.  The second Fire Drill event was impromptu and not much attempt was made to disguise it (with the hopes that a second Fire Drill would have been unexpected by participants.
+
+<img src="./Results/timeline.png" alt="Timeline" style="width:100%;"/>
+
+## Results
 
 | **Anomaly Name**           | **Submitted** | **Declined** | **Unfinished** | **Average Point Percentage Earned** |
 |----------------------------|:-------------:|:------------:|:--------------:|------------------------------------:|
