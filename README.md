@@ -8,22 +8,22 @@ These anomalies were created for the Iowa State University Spring 2014 National 
 Disclaimer: The brief post-analysis of the anomalies given below is the work of Ben Holland and does not reflect the views or opinions of Iowa State University. A best effort was made to collect this data during and after the competition from participant registration, participant check in sheets, the competition scoreboard, and participant feedback. As a result some of the data and analysis may be subject to errors. Note also that some of the challenges contain security relevant materials that could be considered malicious by some. Please use common sense when browsing this and other past anomaly repositories.
 
 | **Anomaly Name**           | **Submitted** | **Declined** | **Unfinished** | **Average Point Percentage Earned** |
-|----------------------------|--------------:|-------------:|---------------:|------------------------------------:|
-| Treasure Hunt              |          75 % |          0 % |           25 % |                               100 % |
-| Graphic Design             |          75 % |          0 % |           25 % |                               100 % |
-| Corrupted Word Doc         |          75 % |          0 % |           25 % |                               100 % |
-| Unknown Encoding           |          50 % |          0 % |           50 % |                              93.8 % |
-| Malicious Wordpress        |          50 % |          0 % |           50 % |                               100 % |
-| Independent Security Audit |          75 % |          0 % |           25 % |                              98.3 % |
-| Employee Termination       |        62.5 % |          0 % |         37.5 % |                                95 % |
-| Just For Puzzlement        |          75 % |          0 % |           25 % |                              59.4 % |
-| Employee Onboarding        |        62.5 % |       12.5 % |           25 % |                                78 % |
-| Open-source Software       |          75 % |          0 % |           25 % |                              99.2 % |
-| Payroll System             |        62.5 % |          0 % |         37.5 % |                              61.5 % |
-| Wordlists                  |        62.5 % |          0 % |         37.5 % |                               100 % |
-| Encrypted File             |        37.5 % |          0 % |         62.5 % |                                70 % |
-| Contact Database           |          25 % |       25.0 % |           50 % |                                50 % |
-| Email Server               |          50 % |          0 % |           50 % |                               100 % |
-| Suspicious Message         |        37.5 % |          0 % |         62.5 % |                               8.3 % |
-| Decompiling                |         100 % |          0 % |            0 % |                                55 % |
-| Leetspeak                  |          75 % |          0 % |           25 % |                               100 % |
+|----------------------------|:-------------:|:------------:|:--------------:|------------------------------------:|
+| Treasure Hunt              |      75 %     |      0 %     |      25 %      |                               100 % |
+| Graphic Design             |      75 %     |      0 %     |      25 %      |                               100 % |
+| Corrupted Word Doc         |      75 %     |      0 %     |      25 %      |                               100 % |
+| Unknown Encoding           |      50 %     |      0 %     |      50 %      |                              93.8 % |
+| Malicious Wordpress        |      50 %     |      0 %     |      50 %      |                               100 % |
+| Independent Security Audit |      75 %     |      0 %     |      25 %      |                              98.3 % |
+| Employee Termination       |     62.5 %    |      0 %     |     37.5 %     |                                95 % |
+| Just For Puzzlement        |      75 %     |      0 %     |      25 %      |                              59.4 % |
+| Employee Onboarding        |     62.5 %    |    12.5 %    |      25 %      |                                78 % |
+| Open-source Software       |      75 %     |      0 %     |      25 %      |                              99.2 % |
+| Payroll System             |     62.5 %    |      0 %     |     37.5 %     |                              61.5 % |
+| Wordlists                  |     62.5 %    |      0 %     |     37.5 %     |                               100 % |
+| Encrypted File             |     37.5 %    |      0 %     |     62.5 %     |                                70 % |
+| Contact Database           |      25 %     |    25.0 %    |      50 %      |                                50 % |
+| Email Server               |      50 %     |      0 %     |      50 %      |                               100 % |
+| Suspicious Message         |     37.5 %    |      0 %     |     62.5 %     |                               8.3 % |
+| Decompiling                |     100 %     |      0 %     |       0 %      |                                55 % |
+| Leetspeak                  |      75 %     |      0 %     |      25 %      |                               100 % |
