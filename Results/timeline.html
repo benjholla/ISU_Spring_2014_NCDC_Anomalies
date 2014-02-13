@@ -17,11 +17,32 @@ function drawChart() {
 
   // date format => Date(year, month, day, hours, minutes, seconds, milliseconds)
   dataTable.addRows([
-    [ 'Cyber Defense Competition', 'Cyber Defense Competition', new Date(2014, 2, 8, 8, 0), new Date(2014, 2, 8, 16, 30) ]]);
+    [ 'Cyber Defense Competition', 'Cyber Defense Competition', new Date(2014, 2, 8, 8, 0), new Date(2014, 2, 8, 16, 30) ],
+	[ 'Fire Drill', 'Group Picture', new Date(2014, 2, 8, 9, 30), new Date(2014, 2, 8, 9, 40) ],
+	[ 'Fire Drill', 'Impromptu Drill', new Date(2014, 2, 8, 14, 30), new Date(2014, 2, 8, 14, 40) ],
+	[ 'Anomaly', 'Treasure Hunt', new Date(2014, 2, 8, 13, 0), new Date(2014, 2, 8, 16, 0) ],
+	[ 'Anomaly', 'Graphic Design', new Date(2014, 2, 8, 13, 0), new Date(2014, 2, 8, 15, 30) ],
+	[ 'Anomaly', 'Corrupted Word Doc', new Date(2014, 2, 8, 13, 0), new Date(2014, 2, 8, 15, 30) ],
+	[ 'Anomaly', 'Unknown Encoding', new Date(2014, 2, 8, 12, 0), new Date(2014, 2, 8, 13, 0) ],
+	[ 'Anomaly', 'Malicious Wordpress', new Date(2014, 2, 8, 12, 0), new Date(2014, 2, 8, 15, 0) ],
+	[ 'Anomaly', 'Independent Security Audit', new Date(2014, 2, 8, 11, 45), new Date(2014, 2, 8, 14, 0) ],
+	[ 'Anomaly', 'Employee Termination', new Date(2014, 2, 8, 11, 0), new Date(2014, 2, 8, 11, 15) ],
+	[ 'Anomaly', 'Just For Puzzlement', new Date(2014, 2, 8, 10, 0), new Date(2014, 2, 8, 13, 30) ],
+	[ 'Anomaly', 'Employee Onboarding', new Date(2014, 2, 8, 10, 0), new Date(2014, 2, 8, 10, 30) ],
+	[ 'Anomaly', 'Open-source Software', new Date(2014, 2, 8, 10, 0), new Date(2014, 2, 8, 11, 30) ],
+	[ 'Anomaly', 'Payroll System', new Date(2014, 2, 8, 10, 0), new Date(2014, 2, 8, 13, 30) ],
+	[ 'Anomaly', 'Wordlists', new Date(2014, 2, 8, 9, 0), new Date(2014, 2, 8, 14, 30) ],
+	[ 'Anomaly', 'Encrypted File', new Date(2014, 2, 8, 9, 0), new Date(2014, 2, 8, 15, 30) ],
+	[ 'Anomaly', 'Contact Database', new Date(2014, 2, 8, 9, 0), new Date(2014, 2, 8, 12, 0) ],
+	[ 'Anomaly', 'Email Server', new Date(2014, 2, 8, 8, 30), new Date(2014, 2, 8, 15, 0) ],
+	[ 'Anomaly', 'Suspicious Message', new Date(2014, 2, 8, 8, 30), new Date(2014, 2, 8, 15, 30) ],
+	[ 'Anomaly', 'Decompiling', new Date(2014, 2, 8, 8, 30), new Date(2014, 2, 8, 15, 30) ],
+	[ 'Anomaly', 'Leetspeak', new Date(2014, 2, 8, 8, 30), new Date(2014, 2, 8, 12, 0) ]
+]);
 
   var options = {
      timeline: { colorByRowLabel: true },
-     colors: ['#cbb69d', '#8d8']
+     colors: ['#cbb69d', '#C00000', '#8d8']
   };
 
   chart.draw(dataTable, options);
